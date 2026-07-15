@@ -1,9 +1,4 @@
-interface NavLink {
-  label: string;
-  href: string;
-}
-
-const navLinks: NavLink[] = [
+const navLinks = [
   { label: 'Home', href: '#' },
   { label: 'Services', href: '#services' },
   { label: 'About', href: '#about' },
@@ -15,7 +10,7 @@ function Navbar() {
     <header className="navbar" role="banner">
       <nav className="navbar__inner" aria-label="Primary navigation">
         <a href="#" className="navbar__logo" aria-label="Go to homepage">
-          Logo
+          Benoni Optometrist
         </a>
 
         <ul className="navbar__links">

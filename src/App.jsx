@@ -1,16 +1,11 @@
+import Hero from './components/Hero';
 import Layout from './components/Layout';
 import './App.css';
 
 function App() {
   return (
     <Layout>
-      <section aria-labelledby="welcome-heading" className="content-section">
-        <h1 id="welcome-heading">Trusted Eye Care in Benoni</h1>
-        <p>
-          Welcome to Benoni Optometrist. We provide comprehensive eye exams,
-          contact lens fittings, and personalized vision care for the whole family.
-        </p>
-      </section>
+      <Hero />
 
       <section id="services" aria-labelledby="services-heading" className="content-section">
         <h2 id="services-heading">Our Services</h2>
