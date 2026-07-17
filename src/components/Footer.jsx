@@ -33,7 +33,16 @@ function Footer() {
         <section>
           <h2 className="text-lg font-semibold text-slate-900">Contact</h2>
           <ul className="mt-3 space-y-2 text-sm text-slate-600">
-            <li>12 Tom Jones Street, Benoni, 1500</li>
+            <li>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Shop+3C,+Opp.+Caltex+Garage,+Voortrekker+St,+Benoni"
+                target="_blank"
+                rel="noreferrer"
+                className="transition hover:text-blue-700"
+              >
+                Shop 3C, Opp. Caltex Garage, Voortrekker St, Benoni
+              </a>
+            </li>
             <li>
               <a href="tel:+27111234567" className="transition hover:text-blue-700">(011) 123 4567</a>
             </li>

@@ -87,22 +87,37 @@ const faqs = [
   {
     question: 'How often should I have an eye test?',
     answer:
-      'For most adults, every 1 to 2 years is recommended. If you have existing eye conditions or diabetes, more frequent checks may be advised.',
+      'For most adults, a full eye test every 1 to 2 years is recommended to keep prescriptions accurate and to detect early signs of common eye conditions. If you have diabetes, a family history of eye disease, frequent headaches, or noticeable vision changes, you may need more regular monitoring. During your visit, we will recommend a review schedule that matches your age, health profile, and day-to-day visual demands.',
   },
   {
     question: 'Do I need an appointment?',
     answer:
-      'Appointments are recommended so we can give you dedicated time. Same-week slots are often available.',
+      'Yes, appointments are recommended because they allow us to reserve dedicated time for your consultation, testing, and questions without rushing your care. Same-week appointments are often available, and we do our best to accommodate urgent concerns whenever possible. You can book by phone or email, and our team will help you choose the most convenient time slot.',
   },
   {
     question: 'Do you help with choosing frames and lenses?',
     answer:
-      'Yes. We guide you through frame styles and lens options based on your prescription, routine, and budget.',
+      'Absolutely. We provide one-on-one guidance to help you select frames and lenses that suit your prescription, face shape, lifestyle, and budget. Whether you need everyday single-vision lenses, progressive lenses, blue-light support, or options for driving and work, we explain the benefits clearly so you can make a confident decision.',
   },
   {
     question: 'Do you accept medical aid?',
     answer:
-      'We support major medical aids. Contact us before your visit and we can help confirm your specific plan benefits.',
+      'We work with major medical aid providers and can assist you in checking what your plan covers before your appointment. Cover may vary by scheme and option, especially for consultations, frames, and lens upgrades. If you share your details in advance, our team can help you understand expected benefits and likely out-of-pocket costs.',
+  },
+  {
+    question: 'What should I bring to my appointment?',
+    answer:
+      'Please bring your ID, medical aid card (if applicable), current glasses, and any contact lens information you have. If you are using eye medication, it helps to bring the packaging or a list of names and dosages. For children, a parent or guardian should accompany them, and any school vision concerns can be useful to mention during the consultation.',
+  },
+  {
+    question: 'How long does a full eye exam usually take?',
+    answer:
+      'A standard comprehensive eye exam usually takes between 30 and 45 minutes, depending on your needs and whether additional testing is required. First-time visits, contact lens fittings, or more complex visual concerns may take a bit longer. We schedule appointments to give you enough time for clear explanations, questions, and personalized recommendations.',
+  },
+  {
+    question: 'What can I expect during my first visit?',
+    answer:
+      'Your first visit includes a discussion of your visual history, a full eye assessment, and checks for common eye health conditions. We then review your results in plain language and explain your options, whether that includes glasses, contact lenses, or follow-up care. Our goal is to make the process comfortable, informative, and tailored to your daily lifestyle.',
   },
 ];
 
@@ -241,7 +256,14 @@ function App() {
           <ul className="mt-4 space-y-4 text-sm">
             <li className="flex gap-3">
               <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-emerald-100" aria-hidden="true" />
-              <span>12 Tom Jones Street, Benoni, 1500</span>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Shop+3C,+Opp.+Caltex+Garage,+Voortrekker+St,+Benoni"
+                target="_blank"
+                rel="noreferrer"
+                className="underline-offset-2 hover:underline"
+              >
+                Shop 3C, Opp. Caltex Garage, Voortrekker St, Benoni
+              </a>
             </li>
             <li className="flex gap-3">
               <Clock3 className="mt-0.5 h-5 w-5 shrink-0 text-emerald-100" aria-hidden="true" />
